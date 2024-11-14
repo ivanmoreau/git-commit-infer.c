@@ -6,6 +6,6 @@
       "version>=": "2023-08-12"
     }
   ],
-  "version": "0",
-  "name": "uname"
+  "version": "0.1",
+  "name": "git-commit-infer"
 }
