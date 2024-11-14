@@ -1,0 +1,32 @@
+= git-commit-infer(1)
+:doctype: manpage
+
+
+== NAME
+git-commit-infer - infers a commit message using Ollama
+
+
+== SYNOPSIS
+*git-commit-infer*
+
+
+== DESCRIPTION
+The git-commit-infer(1) command extracts the staged diff from the current
+repository and feeds it to Ollama, which generates a commit message and outputs
+it to stdout.
+
+== ENVIRONMENT VARIABLES
+
+The following environment variables affect the behavior of this command:
+
+* `OLLAMA_HOST`
+: This conforms to the corresponding variable from the Ollama project, where
+schema, host and port can be specified. Parsing is ruled by libcurl.
+
+== AUTHORS
+*git-commit-infer(* was written by Iván Molina Rebolledo.
+Prompt used was written by *Continue* and contributors.
+
+== COPYING
+Copyright (C) Iván Molina Rebolledo. Free use of this software is granted under
+the terms of the MPLv2 License.
