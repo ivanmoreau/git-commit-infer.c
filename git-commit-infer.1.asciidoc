@@ -24,7 +24,7 @@ The following environment variables affect the behavior of this command:
 schema, host and port can be specified. Parsing is ruled by libcurl.
 
 == AUTHORS
-*git-commit-infer(* was written by Iván Molina Rebolledo.
+*git-commit-infer* was written by Iván Molina Rebolledo.
 Prompt used was written by *Continue* and contributors.
 
 == COPYING
